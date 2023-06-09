@@ -23,8 +23,8 @@ main{
     margin-top: 3px;
 }
 
-.top-players {
-   
+.top-Players {
+   margin-bottom: 30px;
 
 }
 .players {
@@ -48,6 +48,34 @@ main{
     margin-left: 16px;
     font-size: 18px;
 }
-hr:hover{
-    border: 1px solid #D1D1D1;
+
+/* ----------
+------------blog areas */
+/* -------------- */
+.top-blogs{
+    margin-top: 30px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 16px;
+    
+}
+.blog{
+    display: flex;
+    column-gap: 16px;
+    
+    
+    
+}
+.blogs .blog .thambnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-author{
+    color: gray;
+}
+.blog-author a{
+    color: blue;
 }
